@@ -45,17 +45,21 @@ streamlit run app.py
 **Project Status:** Portfolio prototype demonstrating full-stack development and Agile practices.
 ## 📸 Application & Project Management Preview
 
+## 📸 Application & Project Management Preview
+
 ### 📊 System Dashboard
-![Dashboard Layout](ss/overview.png)
+![Dashboard Layout](./ss/overview.png)
 
 ### 🍔 Menu Studio
-![Menu Management](ss/-menu-studio.png)
+![Menu Management](./ss/-menu-studio.png)
 
 ### 📋 Order Desk
-![Order Entry](ss/order-desk.png)
+![Order Entry](./ss/order-desk.png)
 
 ### 🗺️ Jira Scrum Board
-![Jira Tracking](ss/board.png)
+![Jira Tracking](./ss/board.png)
 
 ### 🗂️ Product Backlog
+![Jira Backlog](./ss/product%20backlog.png)
+
 ![Jira Backlog](ss/product%20backlog.png)
