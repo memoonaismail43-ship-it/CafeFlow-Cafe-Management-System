@@ -1,28 +1,39 @@
 # CafeFlow — Functional Testing Report
 
-## Project Overview
-CafeFlow is a cafe management system prototype built with Python, Streamlit, and SQLite.
+## 1. Project Overview
 
-## Testing Summary
+CafeFlow is a cafe management system prototype developed using Python, Streamlit, SQLite, Pandas and Plotly.
 
-All five core modules were tested manually.
+## 2. Testing Approach
 
-| Module | Test Cases | Result |
-|---|---|---|
-| Dashboard | Metrics and recent records | PASS |
-| Menu Management | Add, edit, delete menu items | PASS |
-| Order Management | Create orders, update status, verify totals | PASS |
-| Payment Processing | Full and partial payments, balance verification | PASS |
-| Analytics | Charts and CSV exports | PASS |
-
-## Testing Approach
 Manual functional testing was performed through the application interface. Each module was checked against its expected behaviour.
 
-## Defects
-No defects were reported during this testing run.
+## 3. Testing Summary
 
-## Conclusion
-All five tested modules passed the functional checks performed. Further testing and improvements are planned before production deployment.
+| Module | Test Coverage | Result |
+|---|---|---|
+| Dashboard | Metrics, revenue overview and recent orders | PASS |
+| Menu Studio | Add, edit, delete and availability management | PASS |
+| Order Desk | Create orders, update status and verify totals | PASS |
+| Billing & Invoices | Itemised bills and invoice totals | PASS |
+| Payments | Full and partial payments, outstanding balances | PASS |
+| Analytics & Reports | Charts, filters and CSV exports | PASS |
 
-## Project Status
-Portfolio prototype — functional testing completed.
+## 4. Defects
+
+No defects were reported during the recorded testing run.
+
+## 5. Testing Limitations
+
+- Testing was performed manually.
+- Automated testing has not yet been documented.
+- Performance, security and multi-user testing remain future work.
+- Further testing is required before production deployment.
+
+## 6. Conclusion
+
+The six application modules passed the functional checks recorded for this prototype. Further validation and improvements are planned before production deployment.
+
+## 7. Project Status
+
+Portfolio prototype — manual functional testing completed for the recorded checks.
