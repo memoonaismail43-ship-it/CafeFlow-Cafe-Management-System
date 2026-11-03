@@ -44,3 +44,23 @@ The current prototype focuses on core cafe operations, including menu management
 
 ## 8. Expected Outcome
 The expected outcome is a functional and user-friendly cafe management application that demonstrates software development, database management and project management skills.
+## 📋 Jira Project Management & Agile Tracking
+
+To manage development tasks, scope, and track sprints, this project utilizes Jira. Below is an overview of our Agile sprint planning, backlogs, and issue structures.
+
+### 🗺️ Scrum Board
+Track tasks continuously through different workflows from Todo to Done.
+![Jira Scrum Board](ss/board.png)
+
+### 🗂️ Product Backlog
+Prioritized repository of features, enhancements, and tasks awaiting development.
+![Product Backlog](ss/product%20backlog.png)
+
+### 📑 User Stories
+Detailed requirements captured from an end-user perspective to guide development.
+![User Story Example](ss/user%20story.png)
+
+### 🧱 Subtasks Breakdowns
+Granular technical pieces required to complete high-level user stories successfully.
+![Subtasks Breakdown](ss/subtasks.png)
+
