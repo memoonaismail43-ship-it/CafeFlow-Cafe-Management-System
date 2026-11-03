@@ -79,7 +79,7 @@ Acceptance Criteria:
 - Popular menu items can be identified.
 - Payment summaries are available.
 
-## 6. Sprint Planning
+## 6. Sprint 1 Planning (Proposed — Not Started)
 
 ### Sprint Goal
 
