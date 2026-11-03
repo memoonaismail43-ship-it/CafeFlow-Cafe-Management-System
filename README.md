@@ -51,25 +51,22 @@ CafeFlow provides a centralised application to help organise these activities an
 - Filter reports by date.
 - Export sales reports as CSV files.
 
-## Screenshots
+### 📸 Application & Project Management Preview
 
-### Dashboard
-![CafeFlow Dashboard](ss/overview.png)
+## 📊 System Dashboard
+![Dashboard Layout](./ss/overview.png)
 
-### Menu Studio
-![CafeFlow Menu Studio](ss/-menu-studio.png)
+### 🍔 Menu Studio
+![Menu Management](./ss/-menu-studio.png)
 
-### Order Desk
-![CafeFlow Order Desk](ss/order-desk.png)
+### 📋 Order Desk
+![Order Entry](./ss/order-desk.png)
 
-### Billing & Invoices
-![CafeFlow Billing](ss/billing.png)
+### 🗺️ Jira Scrum Board
+![Jira Tracking](./ss/board.png)
 
-### Payments
-![CafeFlow Payments](ss/payments.png)
-
-### Analytics & Reports
-![CafeFlow Analytics](ss/analytics.png)
+### 🗂️ Product Backlog
+![Jira Backlog](./ss/product%20backlog.png)
 
 ## Technology Stack
 
