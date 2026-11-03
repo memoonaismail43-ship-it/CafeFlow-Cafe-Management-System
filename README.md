@@ -1,135 +1,198 @@
-
 # ☕ CafeFlow — Cafe Management System
 
-CafeFlow is a web-based cafe management application designed to simplify daily cafe operations through a centralized dashboard.
+A modern cafe management system built with Python, Streamlit and SQLite. CafeFlow helps cafe staff manage menu items, customer orders, billing, payments and business analytics through one application.
 
-It helps cafe staff manage menu items, customer orders, billing, payments, and sales analytics.
+![CafeFlow Overview](ss/overview.png)
 
-## 🎯 Project Objective
+## 📌 Project Overview
 
-The objective of CafeFlow is to reduce manual work, organize cafe operations, improve billing accuracy, and provide useful business insights.
+CafeFlow is a portfolio software project designed to demonstrate practical software development, database management and project management skills.
+
+The application provides a centralised interface for managing everyday cafe operations and tracking business activity.
 
 ## ✨ Key Features
 
-### 1. Overview Dashboard
-- Daily sales overview
-- Total orders
-- Menu item statistics
-- Payments received
-- Revenue and order status charts
+### 1. Dashboard
+- View key business metrics.
+- Monitor revenue and order activity.
+- Review recent orders.
+- Track outstanding balances.
+
+![Dashboard](ss/overview.png)
 
 ### 2. Menu Studio
-- Add menu items
-- Edit item details
-- Delete menu items
-- Manage prices and availability
-- Search and filter menu items
+- Add new menu items.
+- Edit item names, categories and prices.
+- Manage item availability.
+- View and organise menu records.
+
+![Menu Studio](ss/-menu-studio.png)
 
 ### 3. Order Desk
-- Create customer orders
-- Select menu items
-- Enter item quantities
-- Calculate order totals
-- Track order status
-- View order history
+- Create customer orders.
+- Select menu items and quantities.
+- Calculate order totals.
+- Update order status.
+- View order records.
 
-### 4. Billing & Invoices
-- Generate itemized bills
-- View order details
-- Track payment status
-- Export invoice information
+![Order Desk](ss/order-desk.png)
+
+### 4. Billing and Invoices
+- View itemised invoices.
+- Display quantities and unit prices.
+- Calculate bill totals.
+- Review payment status.
+
+![Billing](ss/billing.png)
 
 ### 5. Payments
-- Record full and partial payments
-- Track outstanding balances
-- View payment history
-- Export payment records
+- Record full payments.
+- Record partial payments.
+- Track outstanding balances.
+- Review payment transactions.
 
-### 6. Analytics & Reports
-- Revenue trends
-- Popular menu items
-- Payment method breakdown
-- Order and payment status
-- CSV report exports
+![Payments](ss/payments.png)
 
-## 🛠️ Technologies Used
+### 6. Analytics and Reports
+- View revenue trends.
+- Identify popular menu items.
+- Review payment summaries.
+- Export reports as CSV files.
 
-- Python
-- Streamlit
-- SQLite
-- Pandas
-- Plotly
+![Analytics](ss/analytics.png)
 
-## 🗄️ Database
+## 🛠️ Technology Stack
 
-CafeFlow uses SQLite to store and manage:
+| Technology | Purpose |
+|---|---|
+| Python | Application programming |
+| Streamlit | User interface |
+| SQLite | Database management |
+| Pandas | Data processing |
+| Plotly | Interactive charts |
+| GitHub | Version control and project hosting |
+| Jira | Agile project planning and tracking |
 
-- Menu items
-- Customer orders
-- Order details
-- Payment transactions
+## 🗄️ Database Design
 
-Order item prices are stored as snapshots to preserve historical billing accuracy when menu prices change.
+CafeFlow uses SQLite to organise its application data.
 
-## 🚀 Run Locally
+Main database entities include:
 
-### Step 1: Clone the repository
+- Menu Items
+- Orders
+- Order Items
+- Payments
+
+The database stores order-item details and price snapshots to preserve historical order calculations.
+
+See [Database Design](docs/DATABASE_DESIGN.md).
+
+## 📋 Project Management
+
+Jira was used to practise Agile project management activities, including:
+
+- Product backlog organisation.
+- Task prioritisation.
+- User story creation.
+- Acceptance criteria.
+- Subtask management.
+- Sprint planning.
+
+The Sprint 1 plan is proposed and has not yet been started in Jira.
+
+### Jira Screenshots
+
+**Product Backlog**
+
+![Product Backlog](ss/product%20backlog.png)
+
+**Jira Board**
+
+![Jira Board](ss/board.png)
+
+**User Story**
+
+![User Story](ss/user%20story.png)
+
+**Subtasks**
+
+![Subtasks](ss/subtasks.png)
+
+## 🧪 Testing
+
+Manual functional testing has been performed on the application's main modules.
+
+Testing coverage includes:
+
+- Dashboard metrics.
+- Menu item management.
+- Order creation and status updates.
+- Order total calculations.
+- Billing.
+- Full and partial payments.
+- Analytics and CSV exports.
+
+See [Functional Testing Report](TESTING.md) and [Detailed Test Cases](docs/TEST_CASES.md).
+
+## 📚 Project Documentation
+
+| Document | Description |
+|---|---|
+| [Project Overview](docs/PROJECT_OVERVIEW.md) | Introduction, objectives and features |
+| [Software Requirements Specification](docs/SRS.md) | System requirements |
+| [Database Design](docs/DATABASE_DESIGN.md) | Database structure and relationships |
+| [Test Cases](docs/TEST_CASES.md) | Testing documentation |
+| [Project Roadmap](docs/PROJECT_ROADMAP.md) | Development roadmap |
+| [Jira Project Management](docs/JIRA_PROJECT_MANAGEMENT.md) | Agile planning and tracking |
+| [Testing Report](TESTING.md) | Functional testing summary |
+
+## 💻 Installation and Setup
+
+### Prerequisites
+- Python 3.10 or later
+- Git
+
+### 1. Clone the repository
 
 ```bash
 git clone YOUR_GITHUB_REPOSITORY_URL
 ```
 
-### Step 2: Open the project folder
+### 2. Open the project directory
 
 ```bash
 cd YOUR_REPOSITORY_NAME
 ```
 
-### Step 3: Install dependencies
+### 3. Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### Step 4: Run the application
+### 4. Run CafeFlow
 
 ```bash
 streamlit run app.py
 ```
 
+The application will open in your browser.
 
-### 1. Overview Dashboard
-![CafeFlow Overview](ss/overview.png)
+## 🚀 Future Improvements
 
-### 2. Menu Studio
-![CafeFlow Menu Studio](ss/-menu-studio.png)
+- User authentication and role-based access.
+- Improved input validation and error handling.
+- Automated testing.
+- Enhanced reporting.
+- Multi-branch cafe management.
+- More advanced inventory management.
+- Stable cloud deployment.
 
-### 3. Order Desk
-![CafeFlow Order Desk](ss/order-desk.png)
+## 👩‍💻 Project Purpose
 
-### 4. Billing & Invoices
-![CafeFlow Billing](ss/billing.png)
+CafeFlow is a practical portfolio project created to strengthen my skills in software development, database management, Agile project management and product development.
 
-### 5. Payments
-![CafeFlow Payments](ss/payments.png)
+**Project Status:** Portfolio prototype.
 
-### 6. Analytics & Reports
-![CafeFlow Analytics](ss/analytics.png)
-
-
-## 🔮 Future Improvements
-
-- User authentication and role-based access
-- Inventory management
-- Low-stock notifications
-- Advanced sales reporting
-- Cloud database integration
-- Automated report generation
-
-## 👩‍💻 Developer
-
-Developed as a software engineering and project management portfolio project.
-
-**Project:** CafeFlow  
-**Version:** 2.0  
-**Status:** Working prototype
+---
