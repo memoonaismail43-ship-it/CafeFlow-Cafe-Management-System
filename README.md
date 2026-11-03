@@ -1,94 +1,92 @@
-# ☕ CafeFlow — Cafe Management System
+# CafeFlow — Cafe Management System
 
-A modern cafe management system built with Python, Streamlit, and SQLite to help staff manage orders, inventory, billing, and analytics.
+A web-based cafe management prototype built with Python, Streamlit, SQLite, Pandas, and Plotly.
+
+CafeFlow is designed to simplify everyday cafe operations by bringing menu management, customer orders, billing, payments, and business analytics together in one application.
+
+## Project Overview
+
+Managing a cafe involves several connected activities, including maintaining menu items, recording customer orders, preparing bills, tracking payments, and reviewing sales.
+
+CafeFlow provides a centralised application to help organise these activities and make basic cafe operations easier to manage.
 
 ## Main Features
 
 ### 1. Dashboard
-- Displays key business metrics.
-- Shows revenue and order summaries.
-- Tracks outstanding payments.
+- View key business metrics.
+- Monitor revenue and order summaries.
+- Review recent orders.
+- Track outstanding payments.
 
 ### 2. Menu Studio
 - Add new menu items.
 - Edit item names, categories, and prices.
-- Delete items and manage availability.
+- Delete menu items.
+- Manage item availability.
 
 ### 3. Order Desk
 - Create customer orders.
-- Select menu items and quantities.
+- Select menu items.
+- Record item quantities.
 - Calculate order totals.
-- Track and update order status.
+- View and update order statuses.
 
 ### 4. Billing & Invoices
 - Generate itemised invoices.
 - Display customer and order details.
-- Calculate line totals and grand totals.
+- Calculate item totals and grand totals.
+- View payment status.
 - Export invoice information.
 
 ### 5. Payments
 - Record full and partial payments.
 - Track payment methods.
 - Calculate outstanding balances.
+- View payment records.
 
 ### 6. Analytics & Reports
 - View revenue trends.
 - Identify popular menu items.
 - Analyse payment methods.
 - Filter reports by date.
-- Export sales reports as CSV.
-*(For detailed screenshots of the dashboard, menu, and Jira tracking boards, please see the repository documentation.)*
+- Export sales reports as CSV files.
 
-## 🛠 Technology Stack
-* **Core:** Python, Streamlit, SQLite
-* **Data/Visuals:** Pandas, Plotly
-* **Management:** GitHub, Jira
+## Screenshots
 
-## 💻 Installation and Setup
+### Dashboard
+![CafeFlow Dashboard](ss/overview.png)
 
-### Prerequisites
-* Python 3.10 or later
-* Git
+### Menu Studio
+![CafeFlow Menu Studio](ss/-menu-studio.png)
 
-### 1. Clone the repository
-```bash
-git clone https://github.com/memoonaismail43-ship-it/CafeFlow-Cafe-Management-System.git
-```
+### Order Desk
+![CafeFlow Order Desk](ss/order-desk.png)
 
-### 2. Open the project directory
-```bash
-cd CafeFlow-Cafe-Management-System
-```
+### Billing & Invoices
+![CafeFlow Billing](ss/billing.png)
 
-### 3. Install dependencies
-```bash
-pip install -r requirements.txt
-```
+### Payments
+![CafeFlow Payments](ss/payments.png)
 
-### 4. Run CafeFlow
-```bash
-streamlit run app.py
-```
+### Analytics & Reports
+![CafeFlow Analytics](ss/analytics.png)
 
----
-**Project Status:** Portfolio prototype demonstrating full-stack development and Agile practices.
-## 📸 Application & Project Management Preview
+## Technology Stack
 
-## 📸 Application & Project Management Preview
+| Technology | Purpose |
+|---|---|
+| Python | Application logic |
+| Streamlit | Web application interface |
+| SQLite | Database management |
+| Pandas | Data handling |
+| Plotly | Interactive charts and visualisations |
 
-### 📊 System Dashboard
-![Dashboard Layout](./ss/overview.png)
+## Database Design
 
-### 🍔 Menu Studio
-![Menu Management](./ss/-menu-studio.png)
+CafeFlow uses SQLite to store and manage application data.
 
-### 📋 Order Desk
-![Order Entry](./ss/order-desk.png)
+The database includes tables for:
 
-### 🗺️ Jira Scrum Board
-![Jira Tracking](./ss/board.png)
-
-### 🗂️ Product Backlog
-![Jira Backlog](./ss/product%20backlog.png)
-
-![Jira Backlog](ss/product%20backlog.png)
+- Menu items
+- Customer orders
+- Order items
