@@ -97,9 +97,26 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-## 📸 Screenshots
 
-Screenshots of the application will be added here.
+## 📸 Application Screenshots
+
+### 1. Overview Dashboard
+![CafeFlow Overview](screenshots/01-overview.png)
+
+### 2. Menu Studio
+![CafeFlow Menu Studio](screenshots/02-menu-studio.png)
+
+### 3. Order Desk
+![CafeFlow Order Desk](screenshots/03-order-desk.png)
+
+### 4. Billing & Invoices
+![CafeFlow Billing](screenshots/04-billing.png)
+
+### 5. Payments
+![CafeFlow Payments](screenshots/05-payments.png)
+
+### 6. Analytics & Reports
+![CafeFlow Analytics](screenshots/06-analytics.png)
 
 ## 🔮 Future Improvements
 
