@@ -1,84 +1,119 @@
+
 # ☕ CafeFlow — Cafe Management System
 
-A cafe management system prototype built using **Python, Streamlit, and SQLite** to simplify daily cafe operations.
+CafeFlow is a web-based cafe management application designed to simplify daily cafe operations through a centralized dashboard.
 
-## 📌 Project Overview
+It helps cafe staff manage menu items, customer orders, billing, payments, and sales analytics.
 
-CafeFlow provides a simple interface for managing cafe menus, customer orders, payments, and sales analytics.
+## 🎯 Project Objective
 
-## ✨ Features
+The objective of CafeFlow is to reduce manual work, organize cafe operations, improve billing accuracy, and provide useful business insights.
 
-- **Dashboard:** View menu items, total orders, sales, and payment summaries.
-- **Menu Management:** Add, edit, and delete menu items.
-- **Order Management:** Create customer orders, update order status, and calculate order totals.
-- **Payment Processing:** Record full and partial payments and track outstanding balances.
-- **Analytics:** View sales charts, payment information, and export reports as CSV files.
+## ✨ Key Features
 
-# CafeFlow — Cafe Management System
+### 1. Overview Dashboard
+- Daily sales overview
+- Total orders
+- Menu item statistics
+- Payments received
+- Revenue and order status charts
 
-## 📸 Application Preview
+### 2. Menu Studio
+- Add menu items
+- Edit item details
+- Delete menu items
+- Manage prices and availability
+- Search and filter menu items
 
-### 📊 Dashboard
-![Dashboard Layout](ss/dashboard.png)
+### 3. Order Desk
+- Create customer orders
+- Select menu items
+- Enter item quantities
+- Calculate order totals
+- Track order status
+- View order history
 
-### 🍔 Menu Management
-![Menu Management Interface](ss/menu-management.png)
+### 4. Billing & Invoices
+- Generate itemized bills
+- View order details
+- Track payment status
+- Export invoice information
 
-### 📋 Orders Tracking
-![Orders Screen](ss/orders.png)
+### 5. Payments
+- Record full and partial payments
+- Track outstanding balances
+- View payment history
+- Export payment records
 
-### 📈 Analytics & Reports
-![Analytics Interface](ss/analytics.png)
+### 6. Analytics & Reports
+- Revenue trends
+- Popular menu items
+- Payment method breakdown
+- Order and payment status
+- CSV report exports
 
-### 💳 Payments Processing
-![Payments Screen](ss/payments.png)
-
-## 🛠️ Technology Stack
+## 🛠️ Technologies Used
 
 - Python
 - Streamlit
 - SQLite
 - Pandas
+- Plotly
 
-## 🚀 Installation and Setup
+## 🗄️ Database
 
-**1. Clone the repository**
+CafeFlow uses SQLite to store and manage:
+
+- Menu items
+- Customer orders
+- Order details
+- Payment transactions
+
+Order item prices are stored as snapshots to preserve historical billing accuracy when menu prices change.
+
+## 🚀 Run Locally
+
+### Step 1: Clone the repository
 
 ```bash
-git clone https://github.com/memoonaismail43-ship-it/CafeFlow-Cafe-Management-System.git
+git clone YOUR_GITHUB_REPOSITORY_URL
 ```
 
-**2. Open the project folder**
+### Step 2: Open the project folder
 
 ```bash
-cd CafeFlow-Cafe-Management-System
+cd YOUR_REPOSITORY_NAME
 ```
 
-**3. Install dependencies**
+### Step 3: Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-**4. Run the application**
+### Step 4: Run the application
 
 ```bash
 streamlit run app.py
 ```
 
-## 🧪 Testing
+## 📸 Screenshots
 
-Manual functional testing was performed across all five core modules.
+Screenshots of the application will be added here.
 
-See [TESTING.md](TESTING.md) for the testing summary.
+## 🔮 Future Improvements
 
-## 📊 Project Status
-
-Functional portfolio prototype. Further improvements, automated testing, and deployment preparation are planned.
+- User authentication and role-based access
+- Inventory management
+- Low-stock notifications
+- Advanced sales reporting
+- Cloud database integration
+- Automated report generation
 
 ## 👩‍💻 Developer
 
-**Memoona Ismail**  
-BS Software Engineering Student
+Developed as a software engineering and project management portfolio project.
 
-Interests: Project Management, Software Development, and Artificial Intelligence.
+**Project:** CafeFlow  
+**Version:** 2.0  
+**Status:** Working prototype
