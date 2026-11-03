@@ -14,22 +14,25 @@ CafeFlow provides a simple interface for managing cafe menus, customer orders, p
 - **Payment Processing:** Record full and partial payments and track outstanding balances.
 - **Analytics:** View sales charts, payment information, and export reports as CSV files.
 
-## 🖼️ Screenshots
+# CafeFlow — Cafe Management System
 
-### Dashboard
-![CafeFlow Dashboard](screenshots/dashboard.png)
+## 📸 Application Preview
 
-### Menu Management
-![Menu Management](screenshots/menu-management.png)
+### 📊 Dashboard
+![Dashboard Layout](ss/dashboard.png)
 
-### Orders
-![Order Management](screenshots/orders.png)
+### 🍔 Menu Management
+![Menu Management Interface](ss/menu-management.png)
 
-### Payments
-![Payment Processing](screenshots/payments.png)
+### 📋 Orders Tracking
+![Orders Screen](ss/orders.png)
 
-### Analytics
-![Analytics](screenshots/analytics.png)
+### 📈 Analytics & Reports
+![Analytics Interface](ss/analytics.png)
+
+### 💳 Payments Processing
+![Payments Screen](ss/payments.png)
+
 ## 🛠️ Technology Stack
 
 - Python
