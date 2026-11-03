@@ -22,13 +22,10 @@ CafeFlow provides a simple interface for managing cafe menus, customer orders, p
 ### 2. Menu Management
 ![Menu Management](screenshots/menu-management.png)
 
-### 3. Order Management
+### 3. Orders
 ![Orders](screenshots/orders.png)
 
-### 4. Payment Processing
-![Payments](screenshots/payments.png)
-
-### 5. Analytics
+### 4. Analytics
 ![Analytics](screenshots/analytics.png)
 ## 🛠️ Technology Stack
 
