@@ -2,12 +2,41 @@
 
 A modern cafe management system built with Python, Streamlit, and SQLite to help staff manage orders, inventory, billing, and analytics.
 
-## ✨ Key Features & Overview
-* **Dashboard:** Monitor revenue, metrics, and recent activity.
-* **Menu Studio:** Manage item availability, pricing, and categories.
-* **Order Desk & Billing:** Create customer orders, calculate totals, and generate invoices.
-* **Payments & Analytics:** Track full/partial balances, view revenue trends, and export CSV reports.
+## Main Features
 
+### 1. Dashboard
+- Displays key business metrics.
+- Shows revenue and order summaries.
+- Tracks outstanding payments.
+
+### 2. Menu Studio
+- Add new menu items.
+- Edit item names, categories, and prices.
+- Delete items and manage availability.
+
+### 3. Order Desk
+- Create customer orders.
+- Select menu items and quantities.
+- Calculate order totals.
+- Track and update order status.
+
+### 4. Billing & Invoices
+- Generate itemised invoices.
+- Display customer and order details.
+- Calculate line totals and grand totals.
+- Export invoice information.
+
+### 5. Payments
+- Record full and partial payments.
+- Track payment methods.
+- Calculate outstanding balances.
+
+### 6. Analytics & Reports
+- View revenue trends.
+- Identify popular menu items.
+- Analyse payment methods.
+- Filter reports by date.
+- Export sales reports as CSV.
 *(For detailed screenshots of the dashboard, menu, and Jira tracking boards, please see the repository documentation.)*
 
 ## 🛠 Technology Stack
