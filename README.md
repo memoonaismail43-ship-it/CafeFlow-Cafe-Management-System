@@ -98,25 +98,24 @@ streamlit run app.py
 ```
 
 
-## 📸 Application Screenshots
-
 ### 1. Overview Dashboard
-![CafeFlow Overview](screenshots/01-overview.png)
+![CafeFlow Overview](ss/overview.png)
 
 ### 2. Menu Studio
-![CafeFlow Menu Studio](screenshots/02-menu-studio.png)
+![CafeFlow Menu Studio](ss/-menu-studio.png)
 
 ### 3. Order Desk
-![CafeFlow Order Desk](screenshots/03-order-desk.png)
+![CafeFlow Order Desk](ss/order-desk.png)
 
 ### 4. Billing & Invoices
-![CafeFlow Billing](screenshots/04-billing.png)
+![CafeFlow Billing](ss/billing.png)
 
 ### 5. Payments
-![CafeFlow Payments](screenshots/05-payments.png)
+![CafeFlow Payments](ss/payments.png)
 
 ### 6. Analytics & Reports
-![CafeFlow Analytics](screenshots/06-analytics.png)
+![CafeFlow Analytics](ss/analytics.png)
+
 
 ## 🔮 Future Improvements
 
