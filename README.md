@@ -51,9 +51,9 @@ CafeFlow provides a centralised application to help organise these activities an
 - Filter reports by date.
 - Export sales reports as CSV files.
 
-### 📸 Application & Project Management Preview
+## 📸 Application & Project Management Preview
 
-## 📊 System Dashboard
+### 📊 System Dashboard
 ![Dashboard Layout](./ss/overview.png)
 
 ### 🍔 Menu Studio
